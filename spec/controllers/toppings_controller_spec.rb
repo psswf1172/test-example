@@ -13,6 +13,7 @@ RSpec.describe ToppingsController, type: :controller do
     end
 
     it "returns all the toppings" do
+      binding.pry
       expect(Topping.count).to eq 6
     end
 

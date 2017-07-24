@@ -30,10 +30,9 @@ ActiveRecord::Schema.define(version: 20170724155517) do
     t.string   "name"
     t.datetime "release_month"
     t.integer  "category"
+    t.integer  "add_on_id"
     t.boolean  "homemade"
     t.integer  "course"
-    t.integer  "add_on_id"
-    t.index ["add_on_id"], name: "index_toppings_on_add_on_id"
   end
 
 end
