@@ -1,0 +1,19 @@
+<h1><%= @topping.name %></h1>
+  <h2>from <%= @topping.add_on.name %></h2>
+
+<% if @topping.eligible_ice_creams.empty? %>
+  <h3>Sorry, no ice creams match this topping right now!</h3>
+<% else %>
+  <h3>Suggested Ice Creams:</h3>
+  <% @topping.eligible_ice_creams.each do |ice_cream| %>
+    <h5>Name:  <%= ice_cream.name %></h5>
+    <h5>Release start:  <%= ice_cream.release_start.strftime("%B %d, %Y") %></h5>
+    <h5>Release end:  <%= ice_cream.release_end.strftime("%B %d, %Y") %></h5>
+    <h5>Categories: <%= ice_cream.categories %></h5>
+    <h5>Servings: <%= ice_cream.servings %></h5>
+    <h5>Course: <%= ice_cream.course %></h5>
+  <% end %>
+<% end %>
+
+<%= link_to "Return to Topping List", toppings_path  %>
+

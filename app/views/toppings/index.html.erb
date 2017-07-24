@@ -1,0 +1,7 @@
+<h1>Toppings</h1>
+<% @toppings.each do |topping| %>
+  <h3><%= topping.name %></h3>
+  <p>Category: <%= topping.category %></p>
+  <h5><a href='/toppings/<%=topping.id %>'>Show suggested ice creams for <%= topping.name %></a></h5>
+<% end %>
+<a href="/ice_creams.csv"><button class="btn btn-success">Download CSV of Available IceCreams</button></a>
