@@ -1,10 +1,10 @@
 example_id                                              | status | run_time        |
 ------------------------------------------------------- | ------ | --------------- |
-./spec/controllers/ice_creams_controller_spec.rb[1:1:1] | passed | 0.00919 seconds |
-./spec/controllers/toppings_controller_spec.rb[1:1:1]   | passed | 0.00594 seconds |
-./spec/controllers/toppings_controller_spec.rb[1:1:2]   | passed | 0.0047 seconds  |
-./spec/controllers/toppings_controller_spec.rb[1:1:3]   | passed | 0.00666 seconds |
-./spec/controllers/toppings_controller_spec.rb[1:2:1]   | passed | 0.00819 seconds |
-./spec/controllers/toppings_controller_spec.rb[1:2:2]   | passed | 0.21502 seconds |
-./spec/features/find_ice_cream_spec.rb[1:1]             | passed | 4.19 seconds    |
-./spec/models/topping_spec.rb[1:1:1]                    | passed | 0.01057 seconds |
+./spec/controllers/ice_creams_controller_spec.rb[1:1:1] | passed | 0.01411 seconds |
+./spec/controllers/toppings_controller_spec.rb[1:1:1]   | passed | 0.0056 seconds  |
+./spec/controllers/toppings_controller_spec.rb[1:1:2]   | passed | 0.0043 seconds  |
+./spec/controllers/toppings_controller_spec.rb[1:1:3]   | passed | 0.0056 seconds  |
+./spec/controllers/toppings_controller_spec.rb[1:2:1]   | passed | 0.17784 seconds |
+./spec/controllers/toppings_controller_spec.rb[1:2:2]   | passed | 0.00936 seconds |
+./spec/features/find_ice_cream_spec.rb[1:1]             | passed | 3.32 seconds    |
+./spec/models/topping_spec.rb[1:1:1]                    | passed | 0.03182 seconds |

@@ -1,24 +1,11 @@
-# README
+### Tiny test example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hiya 1776ers! Here's a tiny little app to show some test code as a start for our conversation.
 
-Things you may want to cover:
+#####Set up:
+* Download repo. 
+* Set up locally with ```bundle install```, then ```RAILS_ENV=test bundle exec rake db:create db:migrate db:seed```.
+* Start up the ```rails server```.
+* Run the tests with ```bundle exec rspec```. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Looking forward to speaking with you! 

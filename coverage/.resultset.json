@@ -72,12 +72,6 @@
         null,
         null
       ],
-      "/Users/jenniferabella/Development/test_example/app/models/add_on.rb": [
-        1,
-        1,
-        null,
-        null
-      ],
       "/Users/jenniferabella/Development/test_example/app/models/ice_cream.rb": [
         1,
         null,
@@ -92,6 +86,12 @@
         4,
         null,
         null,
+        null,
+        null
+      ],
+      "/Users/jenniferabella/Development/test_example/app/models/add_on.rb": [
+        1,
+        1,
         null,
         null
       ],
@@ -123,6 +123,6 @@
         0
       ]
     },
-    "timestamp": 1500914112
+    "timestamp": 1500914636
   }
 }
